@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
 	<title></title>
 <style type="text/css">
 body {
   color: blanchedalmond;
   background-color: red;
+  font-family: 'Signika', sans-serif;
 }
 </style>
 </head>
 <body>
 	<h1> Check Out My Pokedex! </h1>
-
-
+	<% for(let i =0 ; i < pokemon.length; i++){ %>
+		<ul>
+			<li><%= pokemon[i].name %></li>
+		</ul>
+	<% } %>
 
 </body>
 
