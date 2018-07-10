@@ -12,12 +12,10 @@ body {
 </style>
 </head>
 <body>
-	<h1> Check Out My Pokedex! </h1>
-	<% for(let i =0 ; i < pokemon.length; i++){ %>
-		<ul>
-			<li><%= pokemon[i].name %></li>
-		</ul>
-	<% } %>
+	<h1> Gotta Catch 'Em All </h1>
+	<h2> <%=onePokemon.name%> </h2>
+	<img src=<%=onePokemon.img%>>
+	
 
 </body>
 
