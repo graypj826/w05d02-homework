@@ -15,7 +15,7 @@ body {
 	<h1> Check Out My Pokedex! </h1>
 	<% for(let i =0 ; i < pokemon.length; i++){ %>
 		<ul>
-			<li><%= pokemon[i].name %></li>
+			<li><a href="/pokemon/<%=i%>"><%= pokemon[i].name %></a></li>
 		</ul>
 	<% } %>
 
